@@ -11,7 +11,13 @@ Enable filters to get only wanted informations.
 
 PHP 5.3+
 
-## Example usage
+## Installation
+
+Simple include `class-ip-geolocation.php` file into your project.
+
+`require 'class-ip-geolocation.php';`
+
+## Initialization
 
 **1. Current user IP address geolocalization**
 
@@ -26,7 +32,7 @@ PHP 5.3+
 **3. Get only continent geolocalization**
 
 `$geolocalization = IP_Geolocation::check( '216.58.205.142', 'continent' );`
-*Note: available fields are: zone/city/region/country/continent/coordinates*
+> *Note: available fields are: zone/city/region/country/continent/coordinates*
   
   
 **4. Enable X-Forwarded-For mode to geolocalize IP address connecting through an HTTP proxy or load balancer**
