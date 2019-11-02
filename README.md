@@ -11,7 +11,7 @@ Enable filters to get only wanted informations.
 
 PHP 5.3+
 
-## Installation
+## Installation
 
 Simple include `class-ip-geolocation.php` file into your project.
 
